@@ -5,17 +5,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
 @SpringBootApplication
+@RestController
 public class JenkinsSpringExampleApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(JenkinsSpringExampleApplication.class, args);
-
-
     }
+
     @GetMapping
- public String get(){
-        return "Elowuinw";
- }
+    public String get() {
+        return "Eluwina Byku!";
+    }
+
 }
