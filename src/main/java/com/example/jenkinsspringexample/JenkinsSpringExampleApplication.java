@@ -13,9 +13,13 @@ public class JenkinsSpringExampleApplication {
         SpringApplication.run(JenkinsSpringExampleApplication.class, args);
     }
 
-    @GetMapping
+    @GetMapping("/")
     public String get() {
         return "Eluwina Byku!";
+    }
+    @GetMapping("/test")
+    public String test() {
+        return "To jest testowy endpoint!";
     }
 
 }
